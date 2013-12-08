@@ -96,9 +96,9 @@
 /* Fonts and color */
 
 	.franchise {font: 100px 'Franchise', Arial, sans-serif;}
-	.bebas {font: 25px 'Bebas', Arial, sans-serif; word-spacing:5px;}			
-	.carto {font:18px 'CartoGothicStd-Book', Arial, sans-serif;}
-	.marketing {font:51px 'MarketingScript', serif;}
+	.bebas {font: 25px 'Audiowide', Arial, sans-serif; word-spacing:5px;}			
+	.carto {font:18px 'Fruktur', Arial, sans-serif;}
+	.marketing {font:51px 'Exo', serif;}
 
 	.mass {color:#75d0ff;}
 	.perimeter {color:#fff075;}
@@ -173,7 +173,7 @@
 	.content {opacity:1; display:inline;position:absolute; left:50%;height:500px;top:50%;margin-top:-250px;pointer-events:none;}
 	.content article {padding-top:0;}
 	.content .reflect {background:url('../img/reflect.png') no-repeat 500px 0px;padding:5px 30px; border-radius:10px;}
-	.content .window {background:rgba(255,255,255,0.1);width:550px;margin:0;border-radius:10px;border:1px solid rgba(255,255,255,0.2);-moz-transform:scale(1);-webkit-transform:scale(1);-o-transform:scale(1);transform:scale(1);}
+	.content .window {background:rgba(255,255,255,0.1);width:630px;margin:0;border-radius:10px;border:1px solid rgba(255,255,255,0.2);-moz-transform:scale(1);-webkit-transform:scale(1);-o-transform:scale(1);transform:scale(1);}
 	.content .window h1 {float:left;padding:0 15px 0 0;margin:0;position:relative;top:5px;left:-2px;height:100px;}
 	.content .window p {font-size:18px;line-height:30px;padding-top:0px;color:#ccc;font-size:18px; font-family:'CartoGothicStd-Book', sans-serif;}
 	.content ul {list-style-type:none;position:relative;top:-5px;margin-left:-18px;}
@@ -411,13 +411,13 @@
 
 	#title {position:absolute;width:600px;left:50%;top:0;margin-left:-300px;text-align:center;opacity:0;}
 	#title h1 {text-shadow:0px 5px 0px #999;margin-bottom:0px;padding-bottom:0px;line-height:120px;}
-	#title h1 {text-align:left;padding-left:105px;} /* Ugly win xp chrome fix */
+	#title h1 {text-align:left;padding-left:0px; margin-left: 50px;} /* Ugly win xp chrome fix */
 	#title h1 span {position:absolute;top:22px;left:82px;text-shadow:none;letter-spacing:1.5px;}
-	#title #subtitle {font-variant:small-caps;display:block;color:#999;margin-top:-15px;} /* Absolutely positioned due to a weird difference between Fx4 Mac Os and Fx4 Win Xp */
+	#title #subtitle {display:block;color:#999;margin-top:-15px;} /* Absolutely positioned due to a weird difference between Fx4 Mac Os and Fx4 Win Xp */
 	.showcredits #title:hover {cursor:pointer;}
 	.system #title {opacity:1;}
 
-	#instructions {position:absolute;left:50%;margin-left:-170px;width:300px;text-align:center;bottom:15%;text-transform:uppercase;font-size:14px;color:#aaa;border-radius:5px;background:rgba(255,255,255,0.1);padding:20px;opacity:0;}
+	#instructions {position:absolute;left:50%;margin-left:-170px;width:300px;text-align:center;bottom:15%;font-size:14px;color:#aaa;border-radius:5px;background:rgba(255,255,255,0.1);padding:20px;opacity:0;}
 	.system #instructions {opacity:1;}
 	#instructions.glowing {color:#ccc;}
 
@@ -453,6 +453,7 @@
 	#authors p span:nth-child(2) {font-size:15px;}
 	#authors p span:nth-child(3) {font-size:14px;}		
 	#franck {margin-left:-150px;position:absolute;right:0px;top:0px;}
+	#hmert {margin-top:-150px;position:absolute;right:155px;top:240px;}
 
 	#typefaces {margin-top:50px;text-align:center;opacity:0;color:#ddd;-moz-transition:1s all ease;-webkit-transition:1s all ease;-o-transition:1s all ease;transition:1s all ease;}
 	#typefaces header span {display:inline-block;}
