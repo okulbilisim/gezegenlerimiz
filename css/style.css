@@ -440,7 +440,7 @@
 	#madeby {display:block;margin:0 0 30px 0;text-align:center;font-size:14px;opacity:0;-moz-transition:1s all ease;-webkit-transition:1s all ease;-o-transition:1s all ease;transition:1s all ease;}
 	
 	#door div {height:75px;width:45px;margin:0 auto;}
-	#door div:nth-child(1) {background:#fff url('../img/astronauts.png') no-repeat bottom center;}
+	#door div:nth-child(1) {background:#fff url('../img/astronauts.svg') no-repeat bottom center;}
 	#door div:nth-child(2) {height:80px;margin-top:-80px;background:#000 url('../img/bg.jpg');-moz-transform-origin:center 0;-moz-transition:1s all ease;-webkit-transform-origin:center 0;-webkit-transition:1s all ease;-o-transform-origin:center 0;-o-transition:1s all ease;transform-origin:center 0;transition:1s all ease;}	
 	#doorlight div {width:111px;height:60px;margin:0 auto;}
 	#doorlight div:nth-child(1) {background:#000 url('../img/doorlight.png') no-repeat top center;}
