@@ -129,9 +129,9 @@ define(["jquery", "constants", "planetarium"], function($, Constants, Planetariu
                 	var $togglespan = $("#toggle-credits span");
 				
                 	if($("body").hasClass("showcredits")) {
-                		$togglespan.html("back to demo");					
+                		$togglespan.html("gösteriye dön");					
                 	} else {
-                		$togglespan.html("view credits");
+                		$togglespan.html("künyeye bak");
                 	}
                 };
 
