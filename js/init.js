@@ -12,7 +12,7 @@ define(["jquery", "constants", "planetarium"], function($, Constants, Planetariu
                             playFadeInIntro();
                             clearInterval(waiting);
                         } else {
-                            log.debug("Loading assets...");
+                            log.debug("İçerik yükleniyor...");
                         }
                     }, 100);
                 },
@@ -129,9 +129,10 @@ define(["jquery", "constants", "planetarium"], function($, Constants, Planetariu
                 	var $togglespan = $("#toggle-credits span");
 				
                 	if($("body").hasClass("showcredits")) {
-                		$togglespan.html("gösteriye dön");					
+
+                		$togglespan.html("içeriğe dön");					
                 	} else {
-                		$togglespan.html("künyeye bak");
+                		$togglespan.html("künyeyi gör");
                 	}
                 };
 

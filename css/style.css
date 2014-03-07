@@ -27,6 +27,18 @@
 		font-weight: normal;
 		font-style: normal;
 	}
+	@font-face {
+		font-family: 'Oregano-Italic';
+		src: url('../fonts/Oregano-Italic.ttf') format('truetype');
+		font-weight: normal;
+		font-style: normal;
+	}
+	@font-face {
+		font-family: 'Oregano-Regular';
+		src: url('../fonts/Oregano-Regular.ttf') format('truetype');
+		font-weight: normal;
+		font-style: normal;
+	}
 
 /* Generic transition properties */
 
@@ -99,6 +111,7 @@
 	.bebas {font: 25px 'Audiowide', Arial, sans-serif; word-spacing:5px;}			
 	.carto {font:18px 'Fruktur', Arial, sans-serif;}
 	.marketing {font:51px 'Exo', serif;}
+	.oregano {font:36px 'Oregano', cursive;}
 
 	.mass {color:#75d0ff;}
 	.perimeter {color:#fff075;}
